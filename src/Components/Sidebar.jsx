@@ -326,7 +326,13 @@ const Sidebar = () => {
           <span className={`bottom-bun unclicked`}></span>
         </span>
       </button>
-      <Drawer anchor="right" open={open} onClose={handleDrawerClose}>
+      <Drawer anchor="right" open={open} onClose={handleDrawerClose}
+      PaperProps={{
+        sx: {
+          backgroundColor: "#FAFAFA",
+          color: "#1D2043",
+        },
+      }}>
         {list()}
       </Drawer>
     </>
