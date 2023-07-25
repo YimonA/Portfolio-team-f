@@ -49,7 +49,7 @@ const PortfolioCarousel = () => {
       <Slider {...settings}>
         <div className="carousel-image  px-5">
           <a
-            href="https://real-estate-hazel-one.vercel.app/home"
+            href="https://real-estate-teamf.vercel.app/"
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${RealEstateLight})`,
@@ -62,7 +62,7 @@ const PortfolioCarousel = () => {
         </div>
         <div className="carousel-image px-5">
           <a
-            href="https://real-estate-hazel-one.vercel.app/home"
+            href="https://real-estate-teamf.vercel.app/"
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${RealEstateDark})`,
@@ -74,7 +74,7 @@ const PortfolioCarousel = () => {
         </div>
         <div className="carousel-image px-5">
           <a
-            href="https://real-estate-admin-dashboard-teamf.vercel.app/login"
+            href="https://github.com/YimonA/Real-Estate-Admin-Dashboard"
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${RealEstateDashboard})`,
@@ -87,7 +87,7 @@ const PortfolioCarousel = () => {
         </div>
         <div className="carousel-image  px-5">
           <a
-            href="https://google-contact-team-f.vercel.app/"
+            href="https://github.com/YimonA/google-contact"
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${GoogleContact})`,
