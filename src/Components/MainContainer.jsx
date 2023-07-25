@@ -57,7 +57,7 @@ function MyMain() {
     "Services",
     "Skills",
     "Resume",
-    "Portfolio",
+    "Projects",
     "Testimonial",
     "Weapons",
     "ContactMe",
