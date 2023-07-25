@@ -28,10 +28,10 @@ const Skills = () => {
               <span className="text-[#DF5646]">
                 <ReactTyped
                   strings={["Skills."]}
-                  typeSpeed={150}
+                  typeSpeed={250}
                   showCursor={false}
                   loop
-                  loopCount={3}
+                  loopCount={Infinity}
                 />
               </span>
             </motion.h1>
@@ -131,7 +131,7 @@ const Skills = () => {
                 whileInView={{ y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: false }}
-                className="absolute w-10 lg:w-16 h-4 left-40 top-1 lg:left-40 "
+                className="absolute w-10 lg:w-16 h-4 left-40 top-24 lg:left-40 "
               >
                 <img
                   src={ShapeOne}
@@ -143,7 +143,7 @@ const Skills = () => {
                 whileInView={{ y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
                 viewport={{ once: false }}
-                className="absolute top-5 left-96 lg:top-0"
+                className="absolute top-5 left-96 lg:top-24"
               >
                 <img
                   src={ShapeTwoDark}

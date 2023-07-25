@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import Typing from "./Typing";
+import React from "react";
 import Button from "@mui/material/Button";
 import { BsPauseFill } from "react-icons/bs";
 import { useTheme } from "@mui/material/styles";
@@ -63,10 +62,10 @@ const TestimonialDetail = () => {
         viewport={{ once: false }}
         className="header-2"
       >
-        What My Happy
+        What My Happy{" "}
         <span className=" tracking-wider text-[#DF5646] ">
           <ReactTyped
-            strings={[" Clients "]}
+            strings={["Clients"]}
             typeSpeed={250}
             showCursor={false}
             loop

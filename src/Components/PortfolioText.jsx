@@ -23,10 +23,10 @@ const PortfolioText = () => {
             <span className="text-[var(--primary-color)]">
               <ReactTyped
                 strings={["works."]}
-                typeSpeed={150}
+                typeSpeed={250}
                 showCursor={false}
                 loop
-                loopCount={3}
+                loopCount={Infinity}
               />
             </span>
           </motion.h2>

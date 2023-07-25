@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import Badges from "./Badges";
-import Typing from "./Typing";
 import { motion } from "framer-motion";
 import ReactTyped from "react-typed";
 

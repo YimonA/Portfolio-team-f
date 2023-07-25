@@ -33,10 +33,10 @@ const About = () => {
               <span className=" tracking-wider text-[#DF5646] ">
                 <ReactTyped
                   strings={["Niharika"]}
-                  typeSpeed={150}
+                  typeSpeed={250}
                   showCursor={false}
                   loop
-                  loopCount={3}
+                  loopCount={Infinity}
                 />
               </span>
             </motion.h1>
@@ -74,7 +74,7 @@ const About = () => {
               whileInView={{ y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: false }}
-              className="py-3 my-10"
+              className="py-3 mt-10"
             >
               <Buttons>
                 {" "}
@@ -90,7 +90,7 @@ const About = () => {
               whileInView={{ y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: false }}
-              className=" flex flex-row gap-3 items-end"
+              className=" flex flex-row gap-3 items-end pt-10" 
             >
               <button type="button" className=" text-base ">
                 <FaFacebookF className="w-5 h-5 my-2 mx-2 cursor-pointer  " />
