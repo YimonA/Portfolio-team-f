@@ -11,7 +11,7 @@ const PortfolioText = () => {
     <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mb-6">
       <div className=" w-full lg:w-2/4">
         <div className="mb-11">
-          <Badges>Portfolio</Badges>
+          <Badges>Projects</Badges>
           <motion.h2
             initial={{ y: 60 }}
             whileInView={{ y: 0 }}
