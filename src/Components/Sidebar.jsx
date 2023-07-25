@@ -180,7 +180,7 @@ const Sidebar = () => {
                   href="#Portfolio"
                   className="text-lg font-bold text-[var(--menu-text-color)]"
                 >
-                  Portfolio{" "}
+                  Projects{" "}
                   <AnimatePresence>
                     {listFive && (
                       <motion.p
