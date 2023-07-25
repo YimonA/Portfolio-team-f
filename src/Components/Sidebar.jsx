@@ -62,16 +62,16 @@ const Sidebar = () => {
             className=" flex flex-col gap-5"
           >
             <li>
+              <a
+                href="#About"
+                className=" text-lg font-bold text-[var(--menu-text-color)]"
+              >
               <button
                 onClick={() => setListFunc(setListOne)}
                 className={`px-2 relative hover:bg-[#fcf1e7] ${
                   listOne ? "bg-[#fcf1e7]" : ""
                 }`}
               >
-                <a
-                  href="#About"
-                  className=" text-lg font-bold text-[var(--menu-text-color)]"
-                >
                   About
                   <AnimatePresence>
                     {listOne && (
@@ -84,21 +84,21 @@ const Sidebar = () => {
                       ></motion.p>
                     )}
                   </AnimatePresence>
-                </a>
               </button>
+                </a>
             </li>
 
             <li>
+                <a
+                  href="#Services"
+                  className="text-lg font-bold text-[var(--menu-text-color)]"
+                >
               <button
                 onClick={() => setListFunc(setListTwo)}
                 className={`px-2 relative hover:bg-[#fcf1e7] ${
                   listTwo ? "bg-[#fcf1e7]" : ""
                 }`}
               >
-                <a
-                  href="#Services"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
                   Services{" "}
                   <AnimatePresence>
                     {listTwo && (
@@ -111,21 +111,21 @@ const Sidebar = () => {
                       ></motion.p>
                     )}
                   </AnimatePresence>
-                </a>
               </button>
+                </a>
             </li>
 
             <li>
+                <a
+                  href="#Skills"
+                  className="text-lg font-bold text-[var(--menu-text-color)]"
+                >
               <button
                 onClick={() => setListFunc(setListThree)}
                 className={`px-2 relative hover:bg-[#fcf1e7] ${
                   listThree ? "bg-[#fcf1e7]" : ""
                 }`}
               >
-                <a
-                  href="#Skills"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
                   Skills{" "}
                   <AnimatePresence>
                     {listThree && (
@@ -138,21 +138,21 @@ const Sidebar = () => {
                       ></motion.p>
                     )}
                   </AnimatePresence>
-                </a>
               </button>
+                </a>
             </li>
 
             <li>
+                <a
+                  href="#Resume"
+                  className="text-lg font-bold text-[var(--menu-text-color)]"
+                >
               <button
                 onClick={() => setListFunc(setListFour)}
                 className={`px-2 relative hover:bg-[#fcf1e7] ${
                   listFour ? "bg-[#fcf1e7]" : ""
                 }`}
               >
-                <a
-                  href="#Resume"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
                   Resume{" "}
                   <AnimatePresence>
                     {listFour && (
@@ -165,21 +165,21 @@ const Sidebar = () => {
                       ></motion.p>
                     )}
                   </AnimatePresence>
-                </a>
               </button>
+                </a>
             </li>
 
             <li>
+                <a
+                  href="#Projects"
+                  className="text-lg font-bold text-[var(--menu-text-color)]"
+                >
               <button
                 onClick={() => setListFunc(setListFive)}
                 className={`px-2 relative hover:bg-[#fcf1e7] ${
                   listFive ? "bg-[#fcf1e7]" : ""
                 }`}
               >
-                <a
-                  href="#Projects"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
                   Projects{" "}
                   <AnimatePresence>
                     {listFive && (
@@ -192,21 +192,21 @@ const Sidebar = () => {
                       ></motion.p>
                     )}
                   </AnimatePresence>
-                </a>
               </button>
+                </a>
             </li>
 
             <li>
+                <a
+                  href="#Testimonial"
+                  className="text-lg font-bold text-[var(--menu-text-color)]"
+                >
               <button
                 onClick={() => setListFunc(setListSix)}
                 className={`px-2 relative hover:bg-[#fcf1e7] ${
                   listSix ? "bg-[#fcf1e7]" : ""
                 }`}
               >
-                <a
-                  href="#Testimonial"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
                   Testimonials{" "}
                   <AnimatePresence>
                     {listSix && (
@@ -219,21 +219,21 @@ const Sidebar = () => {
                       ></motion.p>
                     )}
                   </AnimatePresence>
-                </a>
               </button>
+                </a>
             </li>
 
             <li>
+                <a
+                  href="#Weapons"
+                  className="text-lg font-bold text-[var(--menu-text-color)]"
+                >
               <button
                 onClick={() => setListFunc(setListSeven)}
                 className={`px-2 relative hover:bg-[#fcf1e7] ${
                   listSeven ? "bg-[#fcf1e7]" : ""
                 }`}
               >
-                <a
-                  href="#Weapons"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
                   Weapons{" "}
                   <AnimatePresence>
                     {listSeven && (
@@ -246,20 +246,20 @@ const Sidebar = () => {
                       ></motion.p>
                     )}
                   </AnimatePresence>
-                </a>
               </button>
+                </a>
             </li>
             <li>
+                <a
+                  href="#ContactMe"
+                  className="text-lg font-bold text-[var(--menu-text-color)]"
+                >
               <button
                 onClick={() => setListFunc(setListEight)}
                 className={`px-2 relative hover:bg-[#fcf1e7] ${
                   listEight ? "bg-[#fcf1e7]" : ""
                 }`}
               >
-                <a
-                  href="#ContactMe"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
                   Contact{" "}
                   <AnimatePresence>
                     {listEight && (
@@ -272,22 +272,22 @@ const Sidebar = () => {
                       ></motion.p>
                     )}
                   </AnimatePresence>
-                </a>
               </button>
+                </a>
             </li>
 
             <li className=" visible lg:hidden">
+                <a
+                  href={resume}
+                  download="Resume"
+                  className="text-lg font-bold text-[var(--menu-text-color)]"
+                >
               <button
                 onClick={() => setListFunc(setListNine)}
                 className={`px-2 relative hover:bg-[#fcf1e7] ${
                   listNine ? "bg-[#fcf1e7]" : ""
                 }`}
               >
-                <a
-                  href={resume}
-                  download="Resume"
-                  className="text-lg font-bold text-[var(--menu-text-color)]"
-                >
                   Download CV
                   <AnimatePresence>
                     {listNine && (
@@ -300,8 +300,8 @@ const Sidebar = () => {
                       ></motion.p>
                     )}
                   </AnimatePresence>
-                </a>
               </button>
+                </a>
             </li>
           </motion.ul>
         </div>
