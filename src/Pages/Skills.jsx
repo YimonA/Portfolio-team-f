@@ -115,8 +115,8 @@ const Skills = () => {
           </div>
 
           <div className=" basis-7/12 ">
-            <div className="relative ps-0 lg:ps-20">
-              <div className="absolute ">
+          <div className="relative ps-0 lg:ps-20 h-full">
+              <div className="flex flex-col justify-center items-center h-full pt-10">
               <img
                   src={`${
                     theme.palette.mode === "dark"
