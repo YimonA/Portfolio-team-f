@@ -70,11 +70,11 @@ const Services = () => {
                 <b className="text-[#DF5646]">
                   <ReactTyped
                     strings={["Services"]}
-                    typeSpeed={100}
+                    typeSpeed={250}
                     showCursor={false}
                     loop
-                    loopCount={3}
-                  />
+                    loopCount={Infinity}
+                    />
                 </b>{" "}
                 I Provide To My Clients In Here.
               </motion.h1>

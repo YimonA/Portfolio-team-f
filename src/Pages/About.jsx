@@ -90,19 +90,28 @@ const About = () => {
               whileInView={{ y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: false }}
-              className=" flex flex-row gap-3 items-end pt-10" 
+              className=" flex flex-row gap-3 items-end pt-10"
             >
               <button type="button" className=" text-base ">
-                <FaFacebookF className="w-5 h-5 my-2 mx-2 cursor-pointer  " />
+                <a href="#">
+                  <FaFacebookF className="w-5 h-5 my-2 mx-2 cursor-pointer  " />
+                </a>
               </button>
               <button type="button" className=" text-base  ">
-                <FaLinkedinIn className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                <a href="#">
+                  <FaLinkedinIn className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                </a>
               </button>
               <button type="button" className=" text-base ">
-                <FaGithub className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                <a href="#">
+                  <FaGithub className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                </a>
               </button>
+
               <button type="button" className=" text-base ">
-                <FaTwitter className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                <a href="#">
+                  <FaTwitter className="w-5 h-5 my-2 mx-2 cursor-pointer" />
+                </a>
               </button>
             </motion.div>
           </div>

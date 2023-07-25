@@ -74,7 +74,7 @@ const PortfolioCarousel = () => {
         </div>
         <div className="carousel-image px-5">
           <a
-            href="https://github.com/YimonA/Real-Estate-Admin-Dashboard"
+            href="https://real-estate-dashboard-team-f.vercel.app/login"
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${RealEstateDashboard})`,
@@ -87,7 +87,7 @@ const PortfolioCarousel = () => {
         </div>
         <div className="carousel-image  px-5">
           <a
-            href="https://github.com/YimonA/google-contact"
+            href="https://google-contact-ten.vercel.app/login"
             className="image hover:bg-bottom"
             style={{
               backgroundImage: `url(${GoogleContact})`,
