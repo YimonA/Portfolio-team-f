@@ -122,7 +122,7 @@ const TestimonialDetail = () => {
                 elevation={0}
                 sx={{
                   bgcolor:
-                    theme.palette.mode === "light" ? "#fafafa" : "#32324c",
+                    theme.palette.mode === "light" ? "#fafafa" : "#3C3B5A",
                   //bgcolor: "background.default",
                 }}
               >
