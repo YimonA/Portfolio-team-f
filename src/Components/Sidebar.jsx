@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import resume from "../CV/simple_resume.pdf";
+//import resume from "../CV/simple_resume.pdf";
 
 const Sidebar = () => {
   const [listOne, setListOne] = useState(false);
@@ -278,8 +278,7 @@ const Sidebar = () => {
 
             <li className=" visible lg:hidden">
                 <a
-                  href={resume}
-                  download="Resume"
+                  
                   className="text-lg font-bold text-[var(--menu-text-color)]"
                 >
               <button
